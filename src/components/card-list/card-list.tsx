@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { getList } from "../../api/list-data";
 import { CardItem } from "../card-item/card-item";
 import "./card-list.css";
-
+import { CardSkeleton } from "../card-item/card-item-skelton";
 
 interface Props {}
 
@@ -41,6 +41,7 @@ const CardList: React.FC<Props> = () => {
     <div className="container">
       <div className="card-section" onScroll={handleScroll}>
         {cardLists(data)}
+        {pageBottom && <CardSkeleton />}
       </div>
     </div>
   );
