@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  padding: 0px 30px;
+  background: white;
+  margin: 0 auto;
+}
+.card-section {
+  max-height: 100vh;
+  padding: 0px 50px;
+  overflow: auto;
+}

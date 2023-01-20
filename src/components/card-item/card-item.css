@@ -1,0 +1,36 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-gap: 10px;
+  margin: 15px 0px;
+}
+.grid-item {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0px;
+  height: 150px;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px !important;
+  object-fit: cover;
+}
+.text-section {
+  font-family: sans-serif;
+  padding: 0px 10px;
+  text-align: left;
+}
+.title {
+  color: #3b3b3b;
+  font-size: 21px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.date {
+  color: #717171;
+  font-size: 18px;
+}
